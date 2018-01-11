@@ -22,9 +22,23 @@ defmodule ElixirCalculator do
 
   def mul(a, b) do
     a * b
-
-    def quad (a) do
-      a * a
-    end
-
   end
+
+  def quad(a) do
+    a * a
+  end
+
+  def raiz(a) do
+    a
+  end
+
+  def porcen(a, b) do
+    (a / 100) * b
+  end
+
+  def inc(a) do
+    a + 1
+  end
+
+
+end
