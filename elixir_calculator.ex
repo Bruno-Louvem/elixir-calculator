@@ -28,10 +28,6 @@ defmodule ElixirCalculator do
     a * a
   end
 
-  def raiz(a) do
-    a
-  end
-
   def porcen(a, b) do
     (a / 100) * b
   end
