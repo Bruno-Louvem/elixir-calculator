@@ -23,5 +23,8 @@ defmodule ElixirCalculator do
   def mul(a, b) do
     a * b
 
+    def quad (a) do
+      a * a
+    end
+
   end
-end
