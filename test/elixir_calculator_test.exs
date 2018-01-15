@@ -30,6 +30,6 @@ defmodule ElixirCalculatorTest do
   end
 
   test "porcen" do
-    assert 1 == ElixirCalculator.porcen((10 / 100 * 10)
+    assert 1 == ElixirCalculator.porcen(10, 10)
   end
 end
